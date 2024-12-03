@@ -1,5 +1,7 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: "jjminiarcade", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,24 +14,26 @@ body {
 }
 
 button {
-    background-color: green;
+    font-family: "jjminiarcade", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+
     color: white;
     border: none;
-    padding: 10px 20px;
+    padding: 15px 30px;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 30px;
     margin-top: 20px;
+    margin: 10px;
+    border-radius: 15px;
+
+    background-image: url('img/star.jpg');
+    background-size: 500px; 
+    background-repeat: no-repeat; 
+    background-position: center; 
 }
 
-button:hover {
-    background-color: darkgreen;
-}
-
-/* confetti.css */
-#confettiCanvas {
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: -1; /* Ensure canvas is behind other content */
-    pointer-events: none; /* Prevent it from blocking clicks */
+#theme{
+    margin-top: 30px;
+    font-size: 30px;
 }
